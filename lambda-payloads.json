@@ -1,0 +1,8 @@
+{
+    "statusTrigger": {
+        "lambda": {
+            "meterId": "TZ00000150",
+            "date": "202009051211"
+        }
+    }
+}

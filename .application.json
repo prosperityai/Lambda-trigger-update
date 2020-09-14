@@ -1,0 +1,10 @@
+{
+    "Functions": {
+        "statusTrigger": {
+            "PhysicalId": {
+                "eu-west-1": "cloud9-Lambda-trigger-update-statusTrigger-1L2AWCNIHGK3U"
+            }
+        }
+    },
+    "StackName": "cloud9-Lambda-trigger-update"
+}

@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  statusTrigger:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Tracing: Active
+      Handler: index.handler
+      Runtime: nodejs12.x
+      Description: 'Capture DynamoDB Streams and Update MySQL'
+      MemorySize: 512
+      Timeout: 30
+      Tags: 
+        kt:environment-type: 'Testing'
+        kt:country: 'KE and TZ'
+        kt:application: 'KopaTech Meter Control'
+        kt:appversion: 'V1'
+        Name: 'statusTrigger'
